@@ -1,0 +1,97 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/shape_info"
+    android:layout_height="match_parent"
+    tools:context="com.idevelopers.soso.InfoFragment">
+
+          <ImageView
+              android:id="@+id/ivLogo"
+              android:layout_marginTop="15dp"
+              android:layout_marginLeft="20dp"
+              android:layout_marginRight="20dp"
+              android:src="@drawable/infoimage"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvText"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="22dp"
+        android:gravity="center_horizontal"
+        android:text="gTxovT mogvwereT SeniSvnebi mailze an SegvafaseT:"
+        android:textColor="#ffffff"
+        android:layout_marginTop="@dimen/ll_paddingTop"
+         android:layout_below="@+id/ivLogo"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/tvHint_textSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvMail"
+        android:padding="3dp"
+        android:text="soso@soso.ge"
+        android:textSize="@dimen/etInput_textsize"
+        android:layout_marginTop="@dimen/ll_paddingTop"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/tvText"
+        android:textColor="#7DC78B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+<LinearLayout
+    android:id="@+id/llCLose"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:layout_alignParentBottom="true"
+    android:layout_marginLeft="@dimen/ivCall_size"
+    android:layout_marginBottom="@dimen/ivCall_size"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/ivClose_size">
+
+     <ImageView
+         android:id="@+id/ivClose"
+         android:src="@drawable/closebtn"
+         android:layout_alignParentBottom="true"
+         android:layout_width="@dimen/ivClose_size"
+         android:layout_height="@dimen/ivClose_size" />
+
+    <TextView
+        android:layout_marginLeft="4dp"
+        android:id="@+id/tvClose"
+        android:textSize="@dimen/etInput_textsize"
+        android:textColor="#7DC78B"
+        android:text="daxurva"
+        android:layout_alignRight="@+id/ivClose"
+        android:layout_alignBaseline="@+id/ivClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_alignBaseline="@+id/llCLose"
+        android:layout_alignParentRight="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="@dimen/ivCall_size"
+        android:layout_marginBottom="@dimen/ivCall_size"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/ivClose_size">
+
+        <TextView
+            android:text="SegvafaseT"
+            android:id="@+id/tvLink"
+            android:textSize="@dimen/etInput_textsize"
+            android:textColor="#7DC78B"
+            android:layout_alignParentBottom="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

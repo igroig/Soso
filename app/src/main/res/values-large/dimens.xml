@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ll_paddingTop">30dp</dimen>
+    <dimen name="ivCar_width">240dp</dimen>
+    <dimen name="ivCar_height">60dp</dimen>
+    <dimen name="tvHint_marginTop">33dp</dimen>
+    <dimen name="tvHint_textSize">20sp</dimen>
+    <dimen name="llInput_horizontalMargin">50dp</dimen>
+    <dimen name="llInput_height">75dp</dimen>
+    <dimen name="etNumber_marginLeft">10dp</dimen>
+    <dimen name="etInput_textsize">23sp</dimen>
+    <dimen name="ivCall_size">50dp</dimen>
+    <dimen name="ivLoader_size">200dp</dimen>
+    <dimen name="shape_cyrcle_size">220dp</dimen>
+    <dimen name="ivCar_marginBottom">130dp</dimen>
+    <dimen name="ivInfo_size">65dp</dimen>
+    <dimen name="f_marginTop">70dp</dimen>
+    <dimen name="f_margin_Bottom">100dp</dimen>
+    <dimen name="ivClose_size">40dp</dimen>
+</resources>
